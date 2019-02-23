@@ -107,7 +107,7 @@ img::-moz-selection {
   font-size: 12px;
   right: 0;
   padding: 13px;
-  text-transform: uppercase;
+  text-transform: none;
   color: white;
   border: 0;
   background-color: #2d2d2d;
@@ -117,11 +117,25 @@ img::-moz-selection {
 
 #mainNav .navbar-brand {
   color: #ffffff;
-  font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: #a3a3a3;
+}
+
+#mainNav .navbar-nav .nav-brand .nav-link {
+  font-size: 90%;
+  font-weight: 400;
+  padding: 0.75em 0;
+  letter-spacing: 1px;
+  color: white;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-tap-highlight-color: transparent;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #a3a3a3;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -131,20 +145,44 @@ img::-moz-selection {
   letter-spacing: 1px;
   color: white;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-tap-highlight-color: transparent;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #a3a3a3;
+}
+
+#logo {
+  height:35px;
+  float: left;
+  padding-bottom: -1em;
+  padding-top: 0em;
+  margin-bottom: 0em;
+  margin-top: -0.5em;
+  vertical-align: text-bottom;
+}
+
+#logo:hover{
+  background-image: "grapplems-icson-310x310_3.png";
+  height:35px;
+  float: left;
+  padding-bottom: -1em;
+  padding-top: 0em;
+  margin-bottom: 0em;
+  margin-top: -0.5em;
+  vertical-align: text-bottom;
 }
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    width: 100%;
+    height: 48px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: #2d2d2d;
+    background-color: rgba(45, 45, 45, 0.98);
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
@@ -154,14 +192,19 @@ img::-moz-selection {
   #mainNav .navbar-nav .nav-item .nav-link {
     padding: 1.1em 1em !important;
   }
+
+  #mainNav .navbar-nav .nav-brand .nav-link {
+    padding: 1.1em 1em !important;
+  }
+
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
     background-color: #212529;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    font-size: 1.25em;
-    padding: 12px 0;
+    font-size: 1.75em;
+    padding: 0px 0;
   }
 }
 
