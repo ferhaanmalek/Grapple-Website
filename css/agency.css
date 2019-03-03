@@ -80,6 +80,10 @@ section h4.section-service-heading {
     padding: 150px 0;
     background-color: #2d2d2d;
   }
+  section.aboutimage {
+    background-image: url("../img/tools.jpg");
+  }
+
 }
 
 .btn {
