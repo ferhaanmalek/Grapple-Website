@@ -14,11 +14,11 @@ p {
 }
 
 a {
-  color: #fed136;
+  color: #007bff;
 }
 
 a:hover {
-  color: #fec503;
+  color: #003bff;
 }
 
 .text-primary {
@@ -43,6 +43,14 @@ p {
 
 section {
   padding: 100px 0;
+}
+
+section.aboutimage {
+  background-image: url("../img/tools.jpg");
+}
+
+section.extrasbg{
+  background-color: #d4d4d4;
 }
 
 section h2.section-heading {
@@ -501,7 +509,7 @@ header.masthead .intro-text .intro-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #fed136;
+  background-color: #2d2d2d;
 }
 
 .timeline > li .timeline-image h4 {
