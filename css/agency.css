@@ -41,6 +41,21 @@ p {
   font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: rgba(0,123,255,.25);
+  background-clip: border-box;
+  border: 2px solid rgba(255,255,255,1);
+  border-radius: .25rem;
+  padding: 1.25rem;
+}
+
 section {
   padding: 100px 0;
 }
