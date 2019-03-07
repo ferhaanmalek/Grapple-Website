@@ -68,6 +68,8 @@ section.extrasbg{
   background-color: #d4d4d4;
 }
 
+
+
 section h2.section-heading {
   color: #ffffff;
   font-size: 40px;
@@ -81,7 +83,7 @@ section h3.section-subheading {
   font-size: 20px;
   font-weight: 400;
   font-style: bold;
-  margin-bottom: 75px;
+  margin-bottom: 5px;
   text-transform: none;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
@@ -304,6 +306,24 @@ header.masthead .intro-text .intro-heading {
   font-color: #ffffff;
   margin: 15px 0;
   text-transform: none;
+}
+
+.hover_group:hover {
+  opacity: 1;
+}
+#projectsvg {
+  position: relative;
+  width: 100%;
+  padding-bottom: 77%;
+  vertical-align: middle;
+  margin: 0;
+  overflow: hidden;
+}
+#projectsvg svg {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 #portfolio .portfolio-item {
